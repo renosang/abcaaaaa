@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_in_call_button_size" android:width="@dimen/op_in_call_button_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M 0 1 L 24 1 L 24 25 L 0 25 Z" android:strokeWidth="1.0" />
+    <group android:translateX="21.0">
+        <path android:fillColor="@color/op_call_button_disabled_color" android:pathData="M 1.5 5.375 C 1.91421356237 5.375 2.25 5.71078643763 2.25 6.125 C 2.25 6.53921356237 1.91421356237 6.875 1.5 6.875 C 1.08578643763 6.875 0.75 6.53921356237 0.75 6.125 C 0.75 5.71078643763 1.08578643763 5.375 1.5 5.375 Z" android:strokeWidth="1.0" />
+        <path android:fillColor="@color/op_call_button_disabled_color" android:pathData="M 0.75 0.125 L 2.25 0.125 L 2.25 4.625 L 0.75 4.625 Z" android:strokeWidth="1.0" />
+    </group>
+    <path android:fillColor="@color/op_call_button_disabled_color" android:pathData="M18.5,7 C15.46,7 13,9.46 13,12.5 C13,13.83 13.47,15.05 14.26,16 L9.74,16 C10.53,15.05 11,13.83 11,12.5 C11,9.46 8.54,7 5.5,7 C2.46,7 0,9.46 0,12.5 C0,15.54 2.46,18 5.5,18 L18.5,18 C21.54,18 24,15.54 24,12.5 C24,9.46 21.54,7 18.5,7 L18.5,7 Z M5.5,16 C3.57,16 2,14.43 2,12.5 C2,10.57 3.57,9 5.5,9 C7.43,9 9,10.57 9,12.5 C9,14.43 7.43,16 5.5,16 L5.5,16 Z M18.5,16 C16.57,16 15,14.43 15,12.5 C15,10.57 16.57,9 18.5,9 C20.43,9 22,10.57 22,12.5 C22,14.43 20.43,16 18.5,16 L18.5,16 Z" android:strokeWidth="1.0" />
+</vector>

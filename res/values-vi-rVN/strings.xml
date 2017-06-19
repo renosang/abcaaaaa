@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">Không xuất được, Tên liên hệ: %1$s, số: %2$s, email: %3$s</string>
+</resources>

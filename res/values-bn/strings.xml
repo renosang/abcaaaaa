@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">রপ্তানি ব্যর্থ হয়েছে, পরিচিতির নাম: %1$s, নম্বর: %2$s, ইমেল: %3$s</string>
+</resources>

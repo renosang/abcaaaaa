@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="op_dialpad_key_height">56.0dip</dimen>
+    <dimen name="op_dialpad_digits_adjustable_height">56.0dip</dimen>
+    <dimen name="op_dialpad_bottom_key_height">65.0dip</dimen>
+    <dimen name="op_dialpad_key_number_size">32.0dip</dimen>
+    <dimen name="op_dialpad_key_letters_size">10.0dip</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">Export fehlgeschlagen, Name des Kontakts: %1$s, Nummer: %2$s, E-Mail: %3$s</string>
+</resources>

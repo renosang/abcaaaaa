@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_ic_message_size" android:width="@dimen/op_ic_message_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="-1.0" android:translateY="-1.0">
+        <group android:translateX="1.666667" android:translateY="1.333333">
+            <group>
+                <group>
+                    <group>
+                        <group>
+                            <group>
+                                <path android:fillColor="@color/op_ic_message_color" android:pathData="M0,10.5 C0,16.296 4.704,21 10.5,21 C16.296,21 21,16.296 21,10.5 C21,4.704 16.296,-8.8817842e-16 10.5,-8.8817842e-16 C4.704,-8.8817842e-16 0,4.704 0,10.5 L0,10.5 Z M6.42577487,7.83998843 C6.0342847,7.44849827 6.03429633,6.81375563 6.42402597,6.42402597 C6.81455027,6.0335017 7.44827943,6.03406587 7.83998843,6.42577487 L14.9075585,13.4933449 C15.2990486,13.8848351 15.299037,14.5195777 14.9093074,14.9093074 C14.5187831,15.2998316 13.8850539,15.2992675 13.4933449,14.9075585 L6.42577487,7.83998843 L6.42577487,7.83998843 Z" android:strokeWidth="1.0" />
+                            </group>
+                        </group>
+                    </group>
+                </group>
+            </group>
+        </group>
+        <path android:pathData="M 0 0 H 24 V 24 H 0 V 0 Z" android:strokeWidth="1.0" />
+    </group>
+</vector>

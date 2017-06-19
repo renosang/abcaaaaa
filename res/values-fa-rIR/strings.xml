@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">صادر کردن انجام نشد، نام مخاطب: %1$s، شماره: %2$s، ایمیل: %3$s</string>
+</resources>

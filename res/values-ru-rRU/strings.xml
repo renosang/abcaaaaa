@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">Ошибка экспорта. Имя контакта: %1$s, номер: %2$s, электронная почта: %3$s</string>
+</resources>

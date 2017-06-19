@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">Не вдалося експортувати. Ім’я контакту: %1$s, номер: %2$s, електронна пошта: %3$s</string>
+</resources>

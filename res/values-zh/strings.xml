@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">导出失败，联系人姓名：%1$s，号码：%2$s，电子邮件：%3$s</string>
+</resources>

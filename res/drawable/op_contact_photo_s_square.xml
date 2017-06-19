@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="360.0dip" android:width="540.0dip" android:viewportWidth="540.0" android:viewportHeight="360.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="Rectangle-319" android:fillColor="?letter_color_1" android:pathData="M-5.68434e-14,0 L540,0 L540,360 L-5.68434e-14,360 L-5.68434e-14,0 Z" android:strokeWidth="1.0" />
+    <path android:name="Combined-Shape" android:fillColor="?letter_color_2" android:pathData="M516,240 L155.247,240 C82.7613,240,24,186.27,24,120 C24,53.7258,82.7635,-5.68434e-14,155.247,-5.68434e-14 L516,2.84217e-14 L516,240 Z" android:strokeWidth="1.0" />
+    <path android:name="Combined-Shape-Copy" android:fillColor="?letter_color_2" android:pathData="M24,360 L384.753,360 C457.239,360,516,306.27,516,240 C516,173.726,457.237,120,384.753,120 L24,120 L24,360 Z" android:strokeWidth="1.0" />
+    <path android:name="Combined-Shape" android:fillColor="?letter_color_3" android:pathData="M24,120 C24,186.27,82.7613,240,155.247,240 L516,240 C516,173.726,457.237,120,384.753,120 L24,120 L24,120 Z" android:strokeWidth="1.0" />
+</vector>

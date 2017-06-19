@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">Dışa aktarma başarısız oldu, İlgili kişi adı: %1$s, numara: %2$s, e-posta: %3$s</string>
+</resources>

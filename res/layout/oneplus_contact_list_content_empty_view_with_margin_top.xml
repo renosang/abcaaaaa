@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pinned_header_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/oneplus_account_filter_header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/contact_list_card" />
+        <view android:id="@android:id/list" android:paddingTop="?list_item_padding_top" android:scrollbars="none" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="?contact_browser_list_padding_left" android:layout_marginRight="?contact_browser_list_padding_right" android:fastScrollEnabled="false" android:fastScrollAlwaysVisible="false" android:layout_marginStart="?contact_browser_list_padding_left" android:layout_marginEnd="?contact_browser_list_padding_right" class="com.android.contacts.common.list.PinnedHeaderListView" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <include layout="@layout/oneplus_empty_content_view_container" />
+    </FrameLayout>
+</LinearLayout>

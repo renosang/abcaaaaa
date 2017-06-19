@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_display_video_quality_toast">false</bool>
+    <bool name="config_call_session_event_toast">false</bool>
+    <bool name="config_display_data_usage_toast">false</bool>
+    <bool name="call_duration_enabled">false</bool>
+    <bool name="ims_call_type_enabled">true</bool>
+    <bool name="config_enable_conference_dialer">true</bool>
+    <bool name="config_conference_call_show_participant_status">true</bool>
+    <bool name="add_multi_participants_enabled">true</bool>
+    <bool name="add_participant_only_in_conference">true</bool>
+</resources>

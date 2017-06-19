@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.incallui.oneplus.OPBottomView android:id="@id/ignore_bottom_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/ignore_image" android:layout_width="@dimen/op_ignore_button_diameter" android:layout_height="@dimen/op_ignore_button_diameter" android:layout_marginLeft="0.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/op_ic_ignore_normal" android:scaleType="center" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/op_touch_view_bg_color" android:id="@id/tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_ic_message_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.android.incallui.oneplus.OPBottomView android:id="@id/message_bottom_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/message_image" android:layout_width="@dimen/op_ignore_button_diameter" android:layout_height="@dimen/op_ignore_button_diameter" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/op_ic_message_normal" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</merge>

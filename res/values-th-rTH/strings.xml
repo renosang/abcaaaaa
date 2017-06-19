@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">ส่งออกล้มเหลว, ชื่อที่ติดต่อ: %1$s, หมายเลข: %2$s, อีเมล: %3$s</string>
+</resources>

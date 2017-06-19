@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" class="com.android.contacts.common.widget.ActivityTouchLinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/OneplustextAppearanceMedium" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/OneplustextAppearanceSmall" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" />
+</view>

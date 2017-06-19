@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/video_calling_dialoglayout_text_size" android:id="@id/txt_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_calling_dialoglayout_margin" android:layout_marginRight="@dimen/video_calling_dialoglayout_margin" android:layout_above="@id/txt_checkbox" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/video_calling_dialoglayout_text_size" android:id="@id/txt_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_calling_dialoglayout_margin" android:layout_marginBottom="@dimen/video_calling_dialoglayout_margin" android:text="@string/video_call_dialog_checkbox" android:layout_above="@id/btn_ok" />
+    <CheckBox android:id="@id/videocall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_calling_dialoglayout_checkbox_marginleft" android:layout_marginBottom="@dimen/video_calling_dialoglayout_checkbox_marginbottom" android:layout_toRightOf="@id/txt_checkbox" android:layout_above="@id/btn_ok" />
+    <Button android:textSize="@dimen/video_calling_dialoglayout_text_size" android:id="@id/btn_ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/video_call_dialog_ok" android:layout_alignParentBottom="true" />
+</RelativeLayout>

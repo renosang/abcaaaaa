@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="dialpad_key_numbers_size">@dimen/dialpad_key_numbers_default_size</item>
+    <item type="dimen" name="dialpad_key_number_margin_bottom">@dimen/dialpad_key_number_default_margin_bottom</item>
+    <item type="dimen" name="dialpad_zero_key_number_margin_bottom">@dimen/dialpad_zero_key_number_default_margin_bottom</item>
+    <item type="dimen" name="dialpad_digits_adjustable_text_size">@dimen/dialpad_digits_text_size</item>
+    <item type="dimen" name="dialpad_digits_adjustable_height">@dimen/dialpad_digits_height</item>
+    <dimen name="call_status_text_size">22.0sp</dimen>
+    <dimen name="call_status_text_min_size">18.0sp</dimen>
+    <dimen name="call_name_text_size">45.0dip</dimen>
+    <dimen name="call_name_text_min_size">34.0sp</dimen>
+    <dimen name="call_label_text_size">18.0sp</dimen>
+    <dimen name="op_call_buttons_transY">-210.0dip</dimen>
+    <dimen name="op_call_buttons_transY_with_nav">-245.0dip</dimen>
+    <dimen name="op_primary_call_time_transY">-190.0dip</dimen>
+    <dimen name="op_primary_call_time_active_transY">-190.0dip</dimen>
+    <dimen name="op_primary_call_time_active_dialpad_transY">-190.0dip</dimen>
+    <dimen name="op_primary_call_name_transY">-162.0dip</dimen>
+    <dimen name="op_primary_call_name_active_transY">-154.0dip</dimen>
+    <dimen name="op_primary_call_name_active_dialpad_transY">-154.0dip</dimen>
+    <dimen name="op_primary_call_number_transY">-162.0dip</dimen>
+    <dimen name="op_primary_call_number_active_transY">-154.0dip</dimen>
+    <dimen name="op_primary_call_number_active_dialpad_transY">-154.0dip</dimen>
+    <dimen name="op_end_call_button_margin_bottom">76.0dip</dimen>
+    <dimen name="op_end_call_button_margin_bottom_split">60.0dip</dimen>
+    <dimen name="op_dialpad_margin_bottom">152.0dip</dimen>
+    <dimen name="op_secondary_call_heigth">56.0dip</dimen>
+    <dimen name="op_end_call_floating_action_button_diameter">64.0dip</dimen>
+    <dimen name="op_receive_button_diameter">32.0dip</dimen>
+    <dimen name="op_in_call_button_dimension">42.0dip</dimen>
+    <dimen name="op_in_call_button_size">24.0dip</dimen>
+    <dimen name="op_call_button_margin_horizontal">8.0dip</dimen>
+    <dimen name="op_arrow_diameter">8.0dip</dimen>
+    <dimen name="op_answer_call_transX">60.0dip</dimen>
+    <dimen name="op_touch_view_targeX">92.0dip</dimen>
+    <dimen name="op_touch_view_transX">5.0dip</dimen>
+    <dimen name="op_photo_container_width">112.0dip</dimen>
+    <dimen name="op_photo_container_height">100.0dip</dimen>
+    <dimen name="op_hd_primary_size">12.0dip</dimen>
+    <dimen name="op_simIndicator_size">16.0dip</dimen>
+    <dimen name="op_name_size">34.0dip</dimen>
+    <dimen name="op_number_size">12.0dip</dimen>
+    <dimen name="op_callStatus_size">14.0dip</dimen>
+    <dimen name="op_primary_call_number_margin_top">3.0dip</dimen>
+    <dimen name="op_primary_call_status_margin_top">19.0dip</dimen>
+    <dimen name="op_primary_call_location_margin_top">6.0dip</dimen>
+    <dimen name="op_primary_call_name_margin_top">20.0dip</dimen>
+    <dimen name="op_primary_call_photo_margin_top">78.0dip</dimen>
+    <dimen name="op_primary_call_info_container_height">420.0dip</dimen>
+    <dimen name="op_call_button_margin_top">370.0dip</dimen>
+    <dimen name="op_answer_layout_width">248.0dip</dimen>
+    <dimen name="op_answer_layout_height">64.0dip</dimen>
+    <dimen name="op_ic_message_size">24.0dip</dimen>
+    <dimen name="op_ic_message_press_size">32.0dip</dimen>
+    <dimen name="op_ic_answer_size">24.0dip</dimen>
+    <dimen name="op_ic_message_margin">16.0dip</dimen>
+    <dimen name="op_fab_red_size">32.0dip</dimen>
+    <dimen name="op_fab_ic_end_call_size">56.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/op_contact_photo_t_square"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="rectBackground" android:animation="@anim/square_vertical_bg_anim" />
+    <target android:name="path1" android:animation="@anim/square_vertical_t_path1_anim" />
+    <target android:name="path2" android:animation="@anim/square_vertical_t_path2_anim" />
+</animated-vector>

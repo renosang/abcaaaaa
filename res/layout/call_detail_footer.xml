@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/call_log_action_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_line_thickness" />
+    <TextView android:id="@id/call_detail_action_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_block_number" android:drawableStart="@drawable/ic_call_detail_block" style="@style/CallDetailActionItemStyle" />
+    <TextView android:id="@id/call_detail_action_copy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_copy_number_text" android:drawableStart="@drawable/ic_call_detail_content_copy" style="@style/CallDetailActionItemStyle" />
+    <TextView android:id="@id/call_detail_action_edit_before_call" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_edit_number_before_call" android:drawableStart="@drawable/ic_call_detail_edit" style="@style/CallDetailActionItemStyle" />
+    <TextView android:id="@id/call_detail_action_report" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_report_number" android:drawableStart="@drawable/ic_call_detail_report" style="@style/CallDetailActionItemStyle" />
+</LinearLayout>

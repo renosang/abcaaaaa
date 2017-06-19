@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">내보내기가 실패했습니다. 연락처 이름: %1$s, 번호: %2$s, 이메일: %3$s</string>
+</resources>

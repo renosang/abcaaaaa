@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/hang_up" android:layout_width="@dimen/op_receive_button_diameter" android:layout_height="@dimen/op_receive_button_diameter" android:src="@drawable/op_ic_lockscreen_decline_normal" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <FrameLayout android:id="@id/container" android:layout_width="@dimen/op_end_call_floating_action_button_diameter" android:layout_height="@dimen/op_end_call_floating_action_button_diameter" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <com.android.incallui.oneplus.OPBlingLight android:orientation="horizontal" android:id="@id/red_bling" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" android:layout_toLeftOf="@id/container" android:layout_centerVertical="true" lightAttr:pointColor="red" xmlns:lightAttr="http://schemas.android.com/apk/res-auto" />
+        <com.android.incallui.oneplus.OPBlingLight android:orientation="horizontal" android:id="@id/green_bling" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_toRightOf="@id/container" android:layout_centerVertical="true" lightAttr:pointColor="green" xmlns:lightAttr="http://schemas.android.com/apk/res-auto" />
+        <ImageView android:id="@id/receive" android:layout_width="@dimen/op_receive_button_diameter" android:layout_height="@dimen/op_receive_button_diameter" android:src="@drawable/op_ic_lockscreen_answer_normal" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/touch_view_container" android:background="@drawable/op_ic_lockscreen_touch_view_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/op_end_call_floating_action_button_diameter" android:layout_height="@dimen/op_end_call_floating_action_button_diameter">
+        <ImageButton android:layout_gravity="center" android:id="@id/touch_view" android:background="@drawable/end_call_background" android:clickable="false" android:layout_width="@dimen/op_receive_button_diameter" android:layout_height="@dimen/op_receive_button_diameter" android:src="@drawable/op_ic_lockscreen_touch_view" android:scaleType="center" />
+    </FrameLayout>
+</merge>

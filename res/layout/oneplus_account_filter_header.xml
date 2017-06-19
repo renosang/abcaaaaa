@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/oneplus_account_filter_header_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/account_filter_header_container" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/account_filter_header" style="@style/OneplusContactListSeparatorTextViewStyle" />
+        <ImageView android:background="@color/oneplus_account_filter_header_divider_bg" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</FrameLayout>

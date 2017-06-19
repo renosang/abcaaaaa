@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/primary_call_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/op_photo_container" android:layout_width="112.0dip" android:layout_height="100.0dip" android:layout_marginTop="80.0dip">
+        <com.android.incallui.oneplus.OPCircleImageView android:id="@id/op_photo" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/op_contact_photo_default" android:layout_centerHorizontal="true" android:contentDescription="@string/contactPhoto" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/op_hd_color" android:id="@id/op_hd_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/op_volte" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/op_simIndicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="-2.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/op_name_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <com.android.phone.common.widget.ResizingTextTextView android:textSize="30.0sp" android:textColor="@color/op_primary_name_color" android:id="@id/op_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" xmlns:ex="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/op_primary_number_color" android:gravity="center" android:id="@id/op_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0sp" android:textColor="@color/op_primary_number_color" android:gravity="center" android:id="@id/op_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="false" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0sp" android:textColor="@color/op_primary_call_status_color" android:gravity="center" android:id="@id/op_type" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0sp" android:textColor="@color/op_primary_call_status_color" android:gravity="center" android:id="@id/op_callStatus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:singleLine="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/op_notice_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/oneplus_notice_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/op_notice" android:text="@string/op_notice" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/op_primary_notice_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/op_notice" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="end" android:id="@id/callTypeLabel" android:layout_width="fill_parent" android:layout_height="1.0px" android:maxLines="1" />
+</LinearLayout>

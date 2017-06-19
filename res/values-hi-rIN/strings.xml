@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">निर्यात विफल, संपर्क नाम: %1$s, नंबर: %2$s, ईमेल: %3$s</string>
+</resources>

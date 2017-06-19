@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_in_call_button_size" android:width="@dimen/op_in_call_button_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 Z" android:strokeWidth="1.0" />
+        <path android:fillColor="@color/op_call_button_normal_color" android:pathData="M17.3333333,6 L17.3333333,3 L19.3333333,3 L19.3333333,6 L22.3333333,6 L22.3333333,8 L19.3333333,8 L19.3333333,11 L17.3333333,11 L17.3333333,8 L14.3333333,8 L14.3333333,6 L17.3333333,6 L17.3333333,6 Z M16.43,14.93 C16.08,14.82 15.69,14.9 15.42,15.17 L13.22,17.37 C10.39,15.93 8.07,13.62 6.63,10.78 L8.83,8.57 C9.1,8.31 9.18,7.92 9.07,7.57 C8.7,6.45 8.5,5.25 8.5,4 C8.5,3.45 8.05,3 7.5,3 L4,3 C3.45,3 3,3.45 3,4 C3,13.39 10.61,21 20,21 C20.55,21 21,20.55 21,20 L21,16.5 C21,15.95 20.55,15.5 20,15.5 C18.75,15.5 17.55,15.3 16.43,14.93 L16.43,14.93 Z" android:strokeWidth="1.0" />
+    </group>
+</vector>

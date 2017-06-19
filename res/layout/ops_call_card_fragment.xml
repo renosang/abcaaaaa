@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/op_primary_call_info_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <RelativeLayout android:orientation="vertical" android:id="@id/op_bg_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/op_bg" android:background="@color/op_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/primary_call_info_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/op_primary_call_info_container_height" android:elevation="@dimen/primary_call_elevation">
+            <include layout="@layout/ops_primary_call_info" />
+            <fragment android:name="com.android.incallui.OPCallButtonFragment" android:id="@id/callButtonFragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_call_button_margin_top" android:layout_alignParentTop="true" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/connectionServiceMessage" android:background="@android:color/white" android:padding="@dimen/call_banner_side_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </FrameLayout>
+    <fragment android:name="com.android.incallui.VideoCallFragment" android:layout_gravity="center|top" android:id="@id/videoCallFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/progressSpinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/primary_call_info_container" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" style="@android:style/Widget.Material.ProgressBar" />
+    </FrameLayout>
+    <include layout="@layout/op_secondary_call_info" />
+    <include layout="@layout/op_manage_conference_call_button" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/dialpad_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_dialpad_margin_bottom" android:layout_alignParentBottom="true" android:elevation="@dimen/dialpad_elevation" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/answer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:elevation="@dimen/dialpad_elevation" />
+    <FrameLayout android:id="@id/floating_end_call_action_button_container" android:background="@drawable/op_fab_red" android:layout_width="@dimen/op_end_call_floating_action_button_diameter" android:layout_height="@dimen/op_end_call_floating_action_button_diameter" android:layout_marginBottom="@dimen/op_end_call_button_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/floating_end_call_action_button" android:background="@drawable/end_call_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/op_fab_ic_end_call" android:scaleType="center" android:contentDescription="@string/onscreenEndCallText" />
+    </FrameLayout>
+</RelativeLayout>

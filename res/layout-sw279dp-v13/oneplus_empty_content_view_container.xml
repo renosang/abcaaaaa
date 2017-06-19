@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.contacts.common.widget.OnePlusEmptyContentView android:layout_gravity="center|top" android:id="@id/empty_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" custom:display_image="false" xmlns:custom="http://schemas.android.com/apk/res-auto" />
+</merge>

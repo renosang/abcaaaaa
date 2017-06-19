@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textColor="@color/actionbar_icon_color" android:textColorHint="@color/searchview_edittext" android:id="@id/search_view" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/calllog_search_hint" android:cursorVisible="true" android:singleLine="true" android:layout_weight="1.0" android:inputType="textFilter" android:textCursorDrawable="@drawable/color_cursor" />
+    <ImageView android:id="@id/search_close_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clear" android:contentDescription="@string/description_clear_search" />
+</LinearLayout>

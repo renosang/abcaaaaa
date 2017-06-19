@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="300.0dip" android:width="300.0dip" android:viewportWidth="300.0" android:viewportHeight="300.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="-3955.0" android:translateY="-2753.0">
+        <group android:translateX="3566.0" android:translateY="2507.0">
+            <group android:translateX="389.0" android:translateY="246.0">
+                <path android:fillColor="#ff046299" android:pathData="M149.861111,300 C232.627117,300 299.722222,232.842712 299.722222,150 C299.722222,67.1572875 232.627117,0 149.861111,0 C67.0951049,0 0,67.1572875 0,150 C0,232.842712 67.0951049,300 149.861111,300 Z" android:strokeWidth="1.0" />
+                <path android:fillColor="#ff046299" android:pathData="M149.861111,300 C232.627117,300 299.722222,232.842712 299.722222,150 C299.722222,67.1572875 232.627117,0 149.861111,0 C67.0951049,0 0,67.1572875 0,150 C0,232.842712 67.0951049,300 149.861111,300 Z" android:strokeWidth="1.0" />
+                <group android:translateX="60.0" android:translateY="60.0">
+                    <path android:pathData="M 0 0 L 180 0 L 180 180 L 0 180 Z" android:strokeWidth="1.0" />
+                    <path android:fillColor="#ff1d91d6" android:pathData="M120,82.5 C132.45,82.5 142.425,72.45 142.425,60 C142.425,47.55 132.45,37.5 120,37.5 C107.55,37.5 97.5,47.55 97.5,60 C97.5,72.45 107.55,82.5 120,82.5 L120,82.5 Z M120,97.5 C117.825,97.5 115.35,97.65 112.725,97.875 C121.425,104.175 127.5,112.65 127.5,123.75 L127.5,142.5 L172.5,142.5 L172.5,123.75 C172.5,106.275 137.475,97.5 120,97.5 L120,97.5 Z" android:strokeWidth="1.0" />
+                    <path android:fillColor="#ff61c4ff" android:pathData="M60,97.5 C42.525,97.5 7.5,106.275 7.5,123.75 L7.5,142.5 L112.5,142.5 L112.5,123.75 C112.5,106.275 77.475,97.5 60,97.5 Z M60,82.5 C72.45,82.5 82.425,72.45 82.425,60 C82.425,47.55 72.45,37.5 60,37.5 C47.55,37.5 37.5,47.55 37.5,60 C37.5,72.45 47.55,82.5 60,82.5 Z" android:strokeWidth="1.0" />
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="@integer/path1_anim_time" android:valueFrom="             M276,206             L435,720             L310.601,720             L242.662,499.748             L115.5,720             L0,720             L0,680.051 Z" android:valueTo="             M276,-154             L435,360             L310.601,360             L242.662,139.748             L115.5,360             L0,360             L0,320.051 Z" android:valueType="pathType" android:propertyName="pathData" />
+</set>

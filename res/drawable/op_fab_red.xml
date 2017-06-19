@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_fab_ic_end_call_size" android:width="@dimen/op_fab_ic_end_call_size" android:viewportWidth="168.0" android:viewportHeight="168.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="-647.0" android:translateY="-3958.0">
+        <group android:translateX="191.0" android:translateY="2506.0">
+            <group android:translateX="180.0" android:translateY="1452.0">
+                <path android:fillColor="@color/op_ic_lockscreen_decline_color" android:pathData="M360,168 C406.391919,168 444,130.391919 444,84 C444,37.608081 406.391919,0 360,0 C313.608081,0 276,37.608081 276,84 C276,130.391919 313.608081,168 360,168 Z" android:strokeWidth="1.0" />
+            </group>
+        </group>
+    </group>
+</vector>

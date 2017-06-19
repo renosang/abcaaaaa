@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="360.0dip" android:width="540.0dip" android:viewportWidth="540.0" android:viewportHeight="360.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="Mask" android:fillColor="?letter_color_1" android:pathData="M0,0 L540,0 L540,360 L0,360 L0,0 Z" android:strokeWidth="1.0" />
+    <path android:name="Combined-Shape" android:fillColor="?letter_color_2" android:pathData="M140.034,-3.90799e-13 L399.966,-3.90799e-13 C455.723,40.3285,492,105.928,492,180 C492,254.072,455.723,319.671,399.966,360 L140.034,360 C84.2772,319.671,48,254.072,48,180 C48,105.928,84.2772,40.3285,140.034,-2.54659e-11 L140.034,-3.90799e-13 Z" android:strokeWidth="1.0" />
+    <path android:name="Oval-27" android:fillColor="?letter_color_3" android:pathData="M270,300 C336.274,300,390,246.274,390,180 C390,113.726,336.274,60,270,60 C203.726,60,150,113.726,150,180 C150,246.274,203.726,300,270,300 Z" android:strokeWidth="1.0" />
+</vector>

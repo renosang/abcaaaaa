@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_dialer_call_log" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/msim_call_log_spinner" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:background="@color/background_dialer_call_log" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/call_log_horizontal_margin" android:paddingEnd="@dimen/call_log_horizontal_margin" />
+    <com.android.dialer.widget.EmptyContentView android:layout_gravity="center" android:id="@id/empty_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

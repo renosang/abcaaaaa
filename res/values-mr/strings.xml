@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sim_contact_export_failed">निर्यात अयशस्‍वी झाले, संपर्क नाव: %1$s, नंबर: %2$s, ईमेल: %3$s</string>
+</resources>

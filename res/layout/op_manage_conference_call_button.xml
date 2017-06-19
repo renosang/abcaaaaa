@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/manage_conference_call_button" android:background="@color/op_secondary_call_bg_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/op_secondary_call_heigth" android:layout_alignParentBottom="true" android:contentDescription="@string/onscreenManageConferenceText"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:background="@color/secondary_call_info_divider_highlight_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="24.0dip">
+        <com.android.incallui.oneplus.OPCircleImageView android:layout_gravity="center_vertical" android:id="@id/manageConferenceButtonImage" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/op_img_manager_conference" />
+        <TextView android:textSize="@dimen/secondary_call_info_text_size" android:textColor="@color/op_incall_banner_secondary_text_color" android:layout_gravity="center_vertical" android:id="@id/manageConferenceButtonLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/onscreenManageConferenceText" android:importantForAccessibility="no" />
+    </LinearLayout>
+</FrameLayout>

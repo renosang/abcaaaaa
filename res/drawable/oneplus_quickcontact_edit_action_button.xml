@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/oneplus_quickcontact_action_button_color" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M9,51.75L9,63L20.25,63L53.43,29.82L42.18,18.57L9,51.75L9,51.75ZM62.13,21.12C63.3,19.95 63.3,18.06 62.13,16.89L55.11,9.87C53.94,8.7 52.05,8.7 50.88,9.87L45.39,15.36L56.64,26.61L62.13,21.12L62.13,21.12Z" android:strokeColor="#00000000" android:strokeWidth="1.0" />
+</vector>
